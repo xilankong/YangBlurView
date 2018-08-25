@@ -27,3 +27,4 @@ xilankong, young.huang@jfz.com
 ## License
 
 YangBlurView is available under the MIT license. See the LICENSE file for more info.
+# YangBlurView
