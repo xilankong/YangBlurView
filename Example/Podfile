@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YangBlurView_Example' do
+  pod 'YangBlurView', :path => '../'
+
+  target 'YangBlurView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
