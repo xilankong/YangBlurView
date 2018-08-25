@@ -1,0 +1,16 @@
+PODS:
+  - YangBlurView (0.1.0)
+
+DEPENDENCIES:
+  - YangBlurView (from `../`)
+
+EXTERNAL SOURCES:
+  YangBlurView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YangBlurView: 097392fb2264b5d36ef1558272a34d16d2eaab6c
+
+PODFILE CHECKSUM: bea34a039bf99ea1de5d86c522a38f80223cfe1c
+
+COCOAPODS: 1.5.0

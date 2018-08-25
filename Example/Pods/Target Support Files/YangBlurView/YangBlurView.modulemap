@@ -1,0 +1,6 @@
+framework module YangBlurView {
+  umbrella header "YangBlurView-umbrella.h"
+
+  export *
+  module * { export * }
+}

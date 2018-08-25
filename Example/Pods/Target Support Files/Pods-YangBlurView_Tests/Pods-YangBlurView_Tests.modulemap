@@ -1,0 +1,6 @@
+framework module Pods_YangBlurView_Tests {
+  umbrella header "Pods-YangBlurView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
