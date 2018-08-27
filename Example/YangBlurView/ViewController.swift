@@ -20,16 +20,22 @@ class ViewController: UIViewController {
         let imageView = UIImageView(frame: CGRect(x: 0, y: 200, width: 320, height: 150))
         imageView.image = #imageLiteral(resourceName: "bg_1")
         self.view.addSubview(imageView)
+
+        let label = UILabel(frame: CGRect(x: 0, y: 200, width: 320, height: 150))
+        label.text = "测试文字"
+        label.textColor = UIColor.white
+        label.font = UIFont.systemFont(ofSize: 35)
+        self.view.addSubview(label)
         self.view.backgroundColor = UIColor.black
         blurView.frame = CGRect(x: 0, y: 200, width: 320, height: 150)
-
+        blurView.trackingMode = .common
         view.addSubview(blurView)
 //        blurView.blurRadius = 20
 //        blurView.blurRatio = 0.5
     }
     
     @objc func progressValueChange() {
-        blurView.blurRadius = CGFloat(progressBar.value)
+        blurView.blurRadius = CGFloat(progressBar.value) * 10.0
     }
 
 
